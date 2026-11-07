@@ -1,0 +1,8 @@
+# dsh-buddha —— DSH bundle patch
+#
+# 挂载声明：把插件插进 profile 配置树。
+# 安装：dsh plugin --profile desktop add link:D:/Documents/dsh-plugins/dsh-buddha
+
+- insert:
+    - id: buddha
+      name: dsh-buddha

@@ -1,0 +1,36 @@
+{
+  "name": "dsh-buddha",
+  "version": "0.1.0",
+  "description": "把 DSH 的输出自动变成佛的答案：接与佛论禅 https://my.chenyu.me/buddha/ 的 AES+佛字表，把助手回复就地加密成「佛又曰：…」",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "buddha",
+    "与佛论禅"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib",
+    "bin",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shengmouqwq-sketch/dsh-buddha.git"
+  },
+  "homepage": "https://github.com/shengmouqwq-sketch/dsh-buddha#readme",
+  "bugs": {
+    "url": "https://github.com/shengmouqwq-sketch/dsh-buddha/issues"
+  },
+  "author": "shengmouqwq-sketch"
+}
